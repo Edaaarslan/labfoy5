@@ -50,7 +50,7 @@ namespace labfoy5.ekranlar
             string selectedDersID = DersIDComboBox.SelectedValue.ToString();
 
             // Veritabanı bağlantısı
-            using (SqlConnection con = new SqlConnection("Data Source=ZEYNEPSILA\\SQLEXPRESS;Initial Catalog=veri5;User ID=sa;Password=123456"))
+            using (SqlConnection con = new SqlConnection("Data Source=EDA\\SQLEXPRESS;Initial Catalog=foy5;User ID=sa;Password=sifre"))
             {
                 con.Open();
 
